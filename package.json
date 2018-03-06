@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/sldavidson/webpack-demo/issues"
   },
-  "homepage": "https://github.com/sldavidson/webpack-demo#readme"
+  "homepage": "https://github.com/sldavidson/webpack-demo#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.10",
+    "style-loader": "^0.20.2",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
 }

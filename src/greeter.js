@@ -1,3 +1,4 @@
+import styles from './styles/greeter.css';
 export default class Greeter {
   constructor(name) {
     this.name = name || 'World';

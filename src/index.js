@@ -1,3 +1,4 @@
+
 import Greeter from './greeter';
 
 const body = document.getElementsByTagName('body')[0];

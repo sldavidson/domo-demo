@@ -5,7 +5,24 @@
     "width": 5,
     "height": 3
   },
-  "mapping": [],
+  "mapping": [{
+      "alias": "ncaa",
+      "dataSetId": "e2533713-3c39-43db-9168-2539bd22c41e",
+      "fields": [
+        {
+          "alias": "player",
+          "columnName": "PLAYER"
+        },
+        {
+          "alias": "team",
+          "columnName": "TEAM"
+        },
+        {
+          "alias": "avgPoints",
+          "columnName": "PTS"
+        }
+      ]
+    }],
   "ignore": [
     "src/**/*",
     "package.json",

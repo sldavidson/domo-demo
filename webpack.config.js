@@ -1,4 +1,7 @@
 const path = require('path');
+const { Proxy } = require('@domoinc/ryuu-proxy');
+const manifest = require('./manifest.json');
+const proxy = new Proxy(manifest);
 
 module.exports = {
   // where's the main js file
@@ -31,6 +34,7 @@ module.exports = {
 
   // dev server config
   devServer: {
+    before: app => app.use(proxy.express()),
     publicPath: '/dist/',
     hot: false,
     inline: false,
